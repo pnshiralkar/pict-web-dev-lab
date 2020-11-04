@@ -1,0 +1,43 @@
+aside {
+    width: 30%;
+    float: right;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > img {
+    border-radius: 50%;
+    margin: 0 40px;
+    width: calc(100% - 80px);
+	border: 4px #0b88e2 double;
+}
+
+article {
+    padding: 80px;
+    text-align: center;
+}
+
+section {
+    padding: 0 100px;
+}
+
+li > a {
+	color: #09092b;
+	padding: 0 9px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.skills {
+    margin: 0 80px;
+}
+
+.skills > ul > li {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+ul {
+    font-size: 21px;
+    line-height: 28px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form Validation</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <form method="post" target="#" onsubmit="return validate()">
+    <h1>Form Validation</h1>
+    <p>To be able to submit form successfully, JavaScript will validate it first!</p>
+
+    Name<br>
+    <input type="text" name="name"><br>
+    Email<br>
+    <input type="text" name="email"><br>
+    Retype email<br>
+    <input type="text" name="retype_email"><br>
+    Create a password<br>
+    <input type="password" name="password"><br>
+    Retype password<br>
+    <input type="password" name="retype_password"><br>
+
+    <label>
+      <input type="checkbox" name="terms"> &nbsp; By filling above form, you agree to your
+      Terms of Service</label>
+
+    <div class="button">
+      <input type="submit" class="button" value="Submit">
+    </div>
+
+  </form>
+</body>
+
+</html>

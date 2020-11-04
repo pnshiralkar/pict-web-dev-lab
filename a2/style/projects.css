@@ -1,0 +1,21 @@
+ul {
+    font-size: 21px;
+    line-height: 28px;
+}
+
+li > h1 {
+    margin-top: 80px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+a > h2{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0;
+    color: #227;
+}
+
+p {
+    margin: 5px;
+}
